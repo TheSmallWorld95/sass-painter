@@ -1,0 +1,30 @@
+footer {
+  .container-footer-info {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0 20px 40px;    
+    @include container-center($container-width);
+    img {
+      padding-right: 20px;
+    }
+    .copyright {
+      display: flex;
+      align-items: center;
+      .container-copyright {
+        display: flex;
+        ul {
+          display: flex;
+          color: #555;
+          li {
+            padding-right: 20px;
+          }
+        }
+        p {
+
+        }
+      }
+    }
+
+  }
+
+}

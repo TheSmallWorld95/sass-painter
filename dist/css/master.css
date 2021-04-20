@@ -42,6 +42,30 @@ button {
   color: #009cff;
 }
 
+.instagram-color {
+  color: #FFC0CB;
+}
+
+.facebook-color {
+  color: #3B5598;
+}
+
+.twitter-color {
+  color: #00ACEE;
+}
+
+.youtube-color {
+  color: #FF0000;
+}
+
+.pinterest-color {
+  color: #C4302B;
+}
+
+.google-color {
+  color: #FF9900;
+}
+
 .bg-color-black {
   background-color: #000;
 }
@@ -58,6 +82,10 @@ button {
   background-color: #555;
 }
 
+.bg-color-darkgrey {
+  background-color: #232323;
+}
+
 .bg-color-purple {
   background-color: #33165F;
 }
@@ -68,7 +96,11 @@ button {
 
 .bg-img {
   background: url("../img/wacom-painter.jpg") no-repeat;
-  background-size: contain;
+  background-size: 100% 100%;
+}
+
+.mrt-2 {
+  margin-top: 20px;
 }
 
 .mrt-4 {
@@ -85,6 +117,10 @@ button {
 
 .pd-2 {
   padding: 20px;
+}
+
+.pd-3 {
+  padding: 30px;
 }
 
 .pdtb-1 {
@@ -119,8 +155,16 @@ button {
   padding-top: 40px;
 }
 
+.pdt-6 {
+  padding-top: 60px;
+}
+
 .pdr-10 {
   padding-right: 300px;
+}
+
+.pdl-2 {
+  padding-left: 20px;
 }
 
 .element-center {
@@ -225,6 +269,9 @@ main .content-container .painter-pack .pack-possibilities .card img {
   width: 100%;
 }
 main .content-container .painter-pack .pack-possibilities .card .info-card h4 {
+  font-size: 20px;
+}
+main .content-container .painter-pack .pack-possibilities .card .info-card p {
   font-size: 18px;
 }
 main .content-container .painter-bundles {
@@ -237,13 +284,77 @@ main .content-container .painter-bundles .info-bundles {
 }
 main .content-container .painter-bundles .card {
   width: calc(100% / 2);
-  height: 300px;
   display: flex;
-  align-items: center;
+  height: 320px;
+}
+main .content-container .painter-bundles .card .info-card {
+  padding: 60px 60px 90px 30px;
 }
 main .content-container .painter-bundles .card img {
   width: 100%;
 }
 main .content-container .painter-bundles .card .change-width {
   width: 85%;
+}
+main .content-container .painter-bundles .card h2 {
+  font-size: 30px;
+}
+main .content-container .painter-bundles .card p {
+  font-size: 20px;
+}
+main .content-container .info-panel {
+  width: 65%;
+  margin: 0 auto;
+  display: flex;
+}
+main .content-container .info-panel .container-links {
+  width: calc(100% / 4);
+}
+main .content-container .info-panel .container-links h5 {
+  font-size: 18px;
+}
+main .content-container .info-panel .container-links ul li {
+  font-size: 14px;
+  padding-top: 10px;
+}
+main .content-container .info-panel .container-links ul li a {
+  color: #555;
+}
+main .content-container .social-links {
+  width: 65%;
+  margin: 0 auto;
+}
+main .content-container .social-links .container-social {
+  width: 95%;
+  display: flex;
+  justify-content: flex-end;
+}
+main .content-container .social-links .container-social a {
+  font-size: 35px;
+  padding-left: 10px;
+}
+
+footer .container-footer-info {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0 20px 40px;
+  width: 65%;
+  margin: 0 auto;
+}
+footer .container-footer-info img {
+  padding-right: 20px;
+}
+footer .container-footer-info .copyright {
+  display: flex;
+  align-items: center;
+}
+footer .container-footer-info .copyright .container-copyright {
+  display: flex;
+}
+footer .container-footer-info .copyright .container-copyright ul {
+  display: flex;
+  color: #555;
+}
+footer .container-footer-info .copyright .container-copyright ul li {
+  padding-right: 20px;
 }

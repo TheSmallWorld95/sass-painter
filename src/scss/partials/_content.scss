@@ -18,6 +18,9 @@ main {
           }
           .info-card {
             h4 {
+              font-size: 20px;
+            }
+            p {
               font-size: 18px;
             }
           }
@@ -32,11 +35,10 @@ main {
       }
       .card {
         width: calc(100% / 2);
-        height: 300px;
         display: flex;
-        align-items: center;
+        height: 320px;
         .info-card {
-
+          padding: 60px 60px 90px 30px;
         }
         img {
           @include img-width(100%);
@@ -44,7 +46,43 @@ main {
         .change-width {
           @include img-width(85%);
         }
-
+        h2 {
+          font-size: 30px;
+        }
+        p {
+          font-size: 20px;
+        }
+      }
+    }
+    .info-panel {
+      @include container-center($container-width);
+      display: flex;
+      .container-links {
+        width: calc(100% / 4);
+        h5 {
+          font-size: 18px;
+        }
+        ul {
+          li {
+            font-size: 14px;
+            padding-top: 10px;
+            a {
+              color: #555;
+            }
+          }
+        }
+      }
+    }
+    .social-links {
+      @include container-center($container-width);
+      .container-social {
+        width: 95%;
+        display: flex;
+        justify-content: flex-end;
+        a {
+          font-size: 35px;
+          padding-left: 10px;
+        }
       }
     }
   }
