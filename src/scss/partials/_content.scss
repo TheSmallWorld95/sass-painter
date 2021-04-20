@@ -1,5 +1,51 @@
 main {
   .content-container {
-    @include content-center($content-container)
+    @include container-center($content-container);
+    color: #555;
+    .painter-pack {
+      @include container-center($container-width);
+      h2 {
+        @include text-center;
+        font-size: 30px;
+      }
+      .pack-possibilities {
+        display: flex;
+        justify-content: space-between;
+        .card {
+          width: calc(100% / 3 - 10px);
+          img {
+            @include img-width(100%);
+          }
+          .info-card {
+            h4 {
+              font-size: 18px;
+            }
+          }
+        }
+      }
+    }
+    .painter-bundles {
+      @include container-center($container-width);
+      .info-bundles {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      .card {
+        width: calc(100% / 2);
+        height: 300px;
+        display: flex;
+        align-items: center;
+        .info-card {
+
+        }
+        img {
+          @include img-width(100%);
+        }
+        .change-width {
+          @include img-width(85%);
+        }
+
+      }
+    }
   }
 }

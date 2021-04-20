@@ -2,3 +2,11 @@
   width: $width;
   margin: 0 auto;
 }
+
+@mixin text-center {
+  text-align: center;
+}
+
+@mixin img-width($width) {
+  width: $width;
+}

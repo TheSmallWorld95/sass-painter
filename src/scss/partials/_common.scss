@@ -8,10 +8,32 @@
 .text-black {
   color: #000;
 }
+.text-blue {
+  color: $profile-icon;
+}
 // COLOR
 // BACKGROUND
 .bg-color-black {
   background-color: #000;
+}
+.bg-color-white {
+  background-color: #FFF;
+}
+.bg-color-lightgrey {
+  background-color: #ECECEC;
+}
+.bg-color-grey {
+  background-color: #555;
+}
+.bg-color-purple {
+  background-color: #33165F;
+}
+.bg-color-blue {
+  background-color: $profile-icon;
+}
+.bg-img {
+  background: url('../img/wacom-painter.jpg') no-repeat;
+  background-size: contain;
 }
 // BACKGROUND
 
@@ -29,10 +51,13 @@
 .pd-1 {
   padding: 10px 30px;
 }
+.pd-2 {
+  padding: 20px;
+}
 .pdtb-1 {
   padding: 10px 0;
 }
-.pd-5 {
+.pdtb-5 {
   padding: 50px 0;
 }
 .pdb-1 {
@@ -41,8 +66,17 @@
 .pdb-2 {
   padding-bottom: 20px;
 }
+.pdb-4 {
+  padding-bottom: 40px;
+}
 .pdt-1 {
   padding-top: 10px;
+}
+.pdt-2 {
+  padding-top: 20px;
+}
+.pdt-4 {
+  padding-top: 40px;
 }
 .pdr-10 {
   padding-right: 300px;
@@ -57,5 +91,8 @@
 // TEXT
 .text-oblique {
   font-style: oblique;
+}
+.text-uppercase {
+  text-transform: uppercase;
 }
 // TEXT

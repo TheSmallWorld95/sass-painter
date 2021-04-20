@@ -3,12 +3,9 @@ header{
     height: 500px;
     background: url(../img/bg-painter-home.jpg) no-repeat;
     background-position: center;
-    background-size: 95% 100%;
-    h1 {
-      font-size: 60px;
-      span {
-        font-size: 20px,
-      }
+    background-size: 100% 100%;
+    img {
+      @include img-width(38%);
     }
     p {
       font-size: 24px;
