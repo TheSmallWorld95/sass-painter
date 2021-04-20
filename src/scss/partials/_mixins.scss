@@ -1,4 +1,4 @@
-// @mixin container-center {
-//   width: $container-width;
-//   margin: 0 auto;
-// }
+@mixin container-center($width) {
+  width: $width;
+  margin: 0 auto;
+}

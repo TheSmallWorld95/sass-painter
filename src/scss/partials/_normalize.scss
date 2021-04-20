@@ -9,7 +9,8 @@ body {
 }
 
 div.container {
-  width: $container-width;
+  @include container-center($container-width);
+  height: 100%;
 }
 
 ul {
@@ -18,4 +19,8 @@ ul {
 
 a {
   text-decoration: none;
+}
+
+button {
+  text-transform: uppercase;
 }

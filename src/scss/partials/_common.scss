@@ -1,16 +1,51 @@
 // COLOR
-
+.text-pink {
+  color: #FF007F;
+}
+.text-white {
+  color: #FFF;
+}
+.text-black {
+  color: #000;
+}
 // COLOR
+// BACKGROUND
+.bg-color-black {
+  background-color: #000;
+}
+// BACKGROUND
+
 
 // MARGIN
+.mrt-4 {
+  margin-top: 40px;
+}
+.mrr-1 {
+  margin-right: 10px;
+}
 // MARGIN
 
 // PADDING
+.pd-1 {
+  padding: 10px 30px;
+}
+.pdtb-1 {
+  padding: 10px 0;
+}
+.pd-5 {
+  padding: 50px 0;
+}
 .pdb-1 {
-  padding-bottom: 1em;
+  padding-bottom: 10px;
+}
+.pdb-2 {
+  padding-bottom: 20px;
 }
 .pdt-1 {
-  padding-top: 1em;
+  padding-top: 10px;
+}
+.pdr-10 {
+  padding-right: 300px;
 }
 // PADDING
 
@@ -19,3 +54,8 @@
   margin: 0 auto;
 }
 // LAYOUT
+// TEXT
+.text-oblique {
+  font-style: oblique;
+}
+// TEXT
