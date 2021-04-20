@@ -1,0 +1,30 @@
+@import '_navbar.scss';
+@import '_jumbo.scss';
+
+header {
+  .profile {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 55%;
+    ul {
+      display: flex;
+      li {
+        padding: 10px 15px;
+        a {
+          color: $secondary-color;
+          font-size: 12px;
+          i {
+            color: $profile-icon;
+            padding-right: 5px;
+          }
+        }
+
+      }
+    }
+    select {
+      font-size: 12px;
+      height: 20px;
+    }
+  }
+}

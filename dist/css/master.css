@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000;
+}
+
+div.container {
+  width: 65%;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.pdb-1 {
+  padding-bottom: 1em;
+}
+
+.pdt-1 {
+  padding-top: 1em;
+}
+
+.element-center {
+  margin: 0 auto;
+}
+
+nav {
+  display: flex;
+  align-items: flex-end;
+  width: 100%;
+  color: #DDD;
+}
+nav img {
+  width: 10%;
+}
+nav ul {
+  display: flex;
+}
+nav ul li {
+  padding-left: 40px;
+  font-size: 14px;
+}
+nav ul li i {
+  color: #989898;
+  padding-left: 3px;
+  font-size: 10px;
+}
+
+header .jumbo {
+  height: 500px;
+  background: url(../img/bg-painter-home.jpg) no-repeat;
+  background-position: center;
+  background-size: 95% 100%;
+}
+
+header .profile {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 55%;
+}
+header .profile ul {
+  display: flex;
+}
+header .profile ul li {
+  padding: 10px 15px;
+}
+header .profile ul li a {
+  color: #989898;
+  font-size: 12px;
+}
+header .profile ul li a i {
+  color: #009cff;
+  padding-right: 5px;
+}
+header .profile select {
+  font-size: 12px;
+  height: 20px;
+}
